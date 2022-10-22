@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Meu primeiro formulario</h1>
+    <form>
+        <fieldset>
+            <div>
+                <label for="fname">Nome do Chapéu</label>
+                <input type="text" name="fname" id="fname"><br><br>
+            </div>
+            <div>
+                <label for="lname">Cor do Chapéu:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Enviar">
+            </div>
+            <div>
+                <label for="idade">Tamanho</label>
+                <input type="number" name="idade" id="idade">
+            </div>
+            <div>
+                <label for="qtde">Quantidade</label>
+                <output name="numqtde" id="numqtde">0</output>
+            </div>
+            <div>
+                <input type="range" name="qtde" id="qtde" min="0" max="100" step="2" value="0"
+                    oninput="numqtde.value = qtde.value">
+                <label for="cpf">CPF</label>
+            </div>
+            <div>
+                <input type="text" name="cpf" id="cpf" placeholder="999.999.999-99">
+            </div>
+            <div>
+                <label for="Telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone" placeholder="31-99999-9999">
+            </div>
+        </fieldset>
+
+    </form>
+    <p>Para voltar para a primeira pagina da LE01<a href="index.html">CLIQUE AQUI</a></p>
+</body>
+
+</html>
