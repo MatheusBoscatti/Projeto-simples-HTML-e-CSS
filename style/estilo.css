@@ -81,3 +81,59 @@ h1 {
 
     color: steelblue
 }
+
+/*CSS da Pagina index*/
+
+#index{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+}
+
+.menu{
+    width: 100%;
+    background-color: blue;
+    padding: 10px
+}
+
+.menu{
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+/*os nomes do menu seis chapeus, formulario e texto e imagem seis chapeus*/
+#menu1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*Fim*/
+
+/*H1 Do Investimentos Financeiros*/
+#titulo{
+
+    color: blue;
+    font-size: 25px;
+    
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    text-align: left;
+}
