@@ -1,6 +1,6 @@
 /*Começo fonte, tamanho e cor de fundo*/
 body {
-    background-color: lightsteelblue;
+    background-color: rgb(145, 186, 220);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     margin: 0px 50px;
@@ -8,15 +8,18 @@ body {
 
 /*Fim fonte, tamanho e cor de fundo*/
 
-h1 {
+/*esse é o H1 da pagina seis-chapéus*/
+#seischapeus {
     color: red;
-    background-color: lightblue
 }
+/*Fim do H1*/
 
+/*H2 da pagina seis-chapéus*/
 h2 {
     color: red;
     background-color: lightblue
 }
+/*fim do H2*/
 
 p {
     text-align: justify;
@@ -28,7 +31,7 @@ p {
     color: white;
 }
 
-/**/
+
 #chapeu-vermelho {
     color: red
 }
@@ -48,18 +51,20 @@ p {
 #chapeu-azul {
     color: blue;
 }
-
 /*Começo das cores dos seis chapéus do texto que define cada um deles*/
 
-table, th, td {
+/*Começo DAS TABELAS*/
+table,
+th,
+td {
     border: 2px solid grey;
     border-collapse: collapse;
 
 }
-
 /*Padding para definir a distancia e as bordas da tabela*/
 
-th, td {
+th,
+td {
     padding: 12px 8px
 }
 
@@ -68,6 +73,8 @@ th {
     color: white;
 
 }
+/*FIM DAS TABELAS*/
+
 
 /*cor de fundo da pag002*/
 
@@ -82,21 +89,24 @@ h1 {
     color: steelblue
 }
 
-/*CSS da Pagina index*/
+/*CSS da Pagina PRINCIPAL index*/
 
-#index{
+#index {
     margin: 0%;
     padding: 0%;
-    background-color: whitesmoke;
+    background-color: rgb(227, 237, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 50px 50px;
 }
 
-.menu{
+.menu {
     width: 100%;
     background-color: blue;
     padding: 10px
 }
 
-.menu{
+.menu {
     text-align: center;
 }
 
@@ -120,20 +130,71 @@ li {
     text-transform: uppercase;
     text-decoration: none;
 }
-/*Fim*/
 
-/*H1 Do Investimentos Financeiros*/
-#titulo{
-
-    color: blue;
-    font-size: 25px;
-    
+#linkinvestimentos{
+    color: #FF0000;
+    text-decoration: underline;
 }
 
-p{
+#titulopaginaprincipal {
+
+    color: #9999FF;
+    font-size: 25px;
+
+}
+
+
+p {
     color: black;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: none;
     text-align: left;
 }
+/*Fim da pagina index*/
+
+
+/*Pagina investimentos financeiros*/
+#financeiros {
+    background-color: rgb(72, 168, 106);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin: 0px 50px;
+    text-align: left;
+}
+
+#titulo {
+
+    color: rgb(226, 51, 51);
+    font-size: 50px;
+}
+
+#imagemfinanças {
+
+    width: 50%;
+}
+
+#h3rendafixa{
+
+    color: rgb(216, 8, 8);
+}
+
+#h3rendavariavel{
+
+    color: rgb(216, 8, 8);
+}
+
+#paragrafocor{
+
+color: rgb(0, 0, 0);
+}
+/*FIM DA PAGINA SOBRE INVESTIMENTOS FINANCEIROS*/
+
+
+/*CODIGO FORMULARIO*/
+
+#corformulario{
+
+    background-color: rgb(86, 86, 184);
+}
+
